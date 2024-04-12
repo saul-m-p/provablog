@@ -15,6 +15,8 @@ git Desktop
 
 ## TEORIA
 
+controlador de versiones distribuida
+
 HEAD : donde estoy rtabajando ahora
 
 *Ponerle permisos a mis repositorios asi no lo pueden cambiar
@@ -40,7 +42,7 @@ init , commit , add
 
 git log - muestra todo lo que se ha echo a lo largo del projecto
 
-git diff - dice que se agrego y borro del projecto
+git diff - muestra que se agrego y borro del projecto
 
 git checkout - realizar o revertir cambioas, cambiar de branch *no es buena practica para eso se usa el switch* (realmente es la descarga de los cambio, solo si estas local o tienes descargado esas cosas es que puedes moverte en esos cambios)
 
@@ -71,4 +73,5 @@ git revert - borra algo en el medio**
 ## GITHub
 
 git remote add origin ssh del 'repositorio'
+
 git push origin 'en que rama lo queremos subir ej:main' - sube a github el repositorio
